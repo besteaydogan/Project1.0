@@ -1,0 +1,121 @@
+prompt 1:
+
+Bu projede, yapay zeka araçlarını kullanarak üreteceğiniz görsel ve metinleri, yine bu 
+araçlar yardımıyla geliştireceğiniz HTML tabanlı bir web sitesinde sergilemeniz 
+beklenmektedir.  
+
+Yapay zeka kullanarak bir web sitesi oluşturmak istiyorum. HTML ve CSS kullanacağım.
+
+Öncelikle dikkat etmen gereken noktalara deyineceğim:
+1) Web Sitesinin Yapay Zeka ile Oluşturulması: Web sitesinin yapay zeka araçları kullanılarak 
+prompt'larla oluşturulması ve bu prompt'ların proje klasöründe yer alması gerekmektedir. 
+Not: HTML&CSS gerekli ve yeterlidir, Javascript benzeri teknolojileri de opsiyonel olarak 
+kullanabilirsiniz. 
+2) Semantik Etiketlerin Kullanılması: Web sitesinin HTML yapısında, semantik 
+etiketlerin(header, main, nav, sec on, article, aside, footer) kullanılması beklenmektedir. 
+3) Responsive Tasarım(Opsiyonel): Oluşturulan web sitesi, farklı cihaz ve ekran boyutlarına 
+uyumlu olmalıdır. Mobil, tablet ve masaüstü cihazlarda düzgün bir şekilde görüntülenmeli ve 
+kullanıcı deneyimini arttırmak için tasarımın her boyutta optimize edilmiş olması 
+gerekmektedir.
+
+HTML CSS Javascript kodlarını ayrı çıktılar olarak vermen önemlidir.
+
+Web sitesi mobil uyumlu ve duyarlı olmalıdır.
+Ayrıca düzen ve stil açısından site yapısında Twitter Bootstrap CSS sınıflarının en son sürümünü de içermelidir.
+
+Sayfa içeriğindeki başlıklara dahili bağlantılar içeren bir gezinme menüsü de eklemelisiniz.
+
+Yazdığınız kodlara hiçbir şekilde açıklama yapmayın.
+
+Her şey anlaşılır mı?
+Tüm gereklilikleri anlıyorsanız lütfen hayır veya evet şeklinde cevap verin.
+
+
+prompt 2:
+
+Web sitem bir portfolio galeri websitesi ve burada soyut ve somut kavramları görselleştirerek açıkladığım bir kavramlar sözlüğü websitesi tasarlamak istiyorum. Web sitemde bulunmasını istediğim etiketler (header,main,nav,section,article,aside,footer) şeklindedir.
+
+Bir de navigasyon sekmesi olsun istiyorum ve bu sekmenin içeriği Soyut, Somut, Öneriler ve Hakkımızda olmak üzere 4'e ayrılsın.
+
+Görselleri 3 tane yan yana olacak şekilde websitemde sunmak istiyorum. Görsellere ait kavramları ise altında yazacak şekilde görmek istiyorum. Görsellerin boyutunu ayarlayabileceğim bir kod dizini de istiyorum.
+
+Logo ve sitenin adı sol üstte büyükçe yer alsın. Ancak vereceğeim logo jpeg formatında olacak ve onun da boyutlarını ayarlayabiliyor olmak istiyorum.
+
+Öneriler kısmında kullanıcılardan bir nickname isteyecek ve sonucunda 2000 kelimelik bir yorum bırakabilecekleri bir sekme yaratacağız.
+
+Bana bu websitesini oluşturmamda yardımcı olabilir misin?
+
+
+prompt 3:
+
+Bu iki dosyayı aynı folder içinde iki farklı uzantıda dosya olarak mı kaydedeceğim?
+
+Css dosyasını html dosyasına nasıl bağlayacağım?
+
+
+prompt 4:
+
+Soyut ve somut kavramlara eklediğim görselleri boyutlandırmak istiyorum. Css koduna eklemeler yapar mısın?
+
+
+prompt 5:
+
+Şimdi ise projemin responsive olmasını sağlamak istiyorum. Yani tablet, telefon gibi 
+cihazlarda da boyutlarında bir problem olmadan kullanabiliyor olmak istiyorum ve bunun için eklemem 
+gereken kodları bana aktar. Bunun için html/css kullan.
+
+
+prompt 6:
+
+Şimdi ise ben 3 tane görselin websitesinde yan yana durmasını istiyorum. Somut görseller 3'lü bir şekilde yan yana, soyut görseller ise 3'lü bir şekilde yan yana durmalı. Bunun kodunu yazar mısın?
+
+Bu görsellerin aralarında boşlukların olmasını istiyorum. Hatta 3'lü görselleri yan yana koyarken responsivity de göz önüne alınmalı ve görseller arasına uyumlu bir boşluk konulmalıdır.
+
+
+prompt 7:
+
+Öneriler kısmında nickname ve yorum ekleme kısmını koymuştuk.
+
+Websitesindeki görünümünü değiştirmek istiyorum. 2 tane üst üste kutucuk şeklinde üstünde nickname girilebilecek bir kutu ve altında yorum eklenebilecek bir kutu olarak konumlandırmak istiyorum. Bu kutucukları da hem bilgisayar, tablet ve telefona uygun bir responsivitiy ile ayarlamak istiyorum.
+
+
+prompt 8:
+
+Ancak görsellerin arasındaki boşluk çok da fazla olmasın bunu nasıl dengeleyebilirim? Yani sayfanın boyutunu küçülttüğümde 3 görsel arasındaki boşluk çok fazla oluyor, çok fazla olmayacak şekilde ayarlayabileceğimiz kodu verebilir misin?
+
+
+prompt 9:
+Hakkımızda kısmına telefon ve mail numarası belirtmek istiyorum. Html kodunu yazar mısın?
+
+
+GÖRSELLERİN PROMPTLARI:
+
+Para.jfif
+Birden paraya sahip bir adam görselleştirmeni istiyorum. Gökten paralar yağdığı için mutluluğu gözlerinden okunsun
+ve sanki bir çizgi film karakteriymiş gibi gözüksün.
+
+Anne.jfif
+Bir annenin çocuklarına olan sevgisini görselleştirmeni istiyorum. Biri kız diğeri erkek çocuğu olan iki çocuğuna
+sarılan bir anne imgesi. Annenin saçları orta boyda ve siyah, kıyafeti siyah olsun. Kız çocuğunun kırmızı taytı
+beyaz bir tişörtü olsun ve saçları kısacık olsun siyah ince tel gibi bir taç taksın. Arkada melek figürlü duvarda asılı
+bir heykelcik olsun. Erkek çocuğu 8 yaşlarında kırık beyaz üst giyen bir çocuk olsun.
+
+Savaş.jfif
+Tarihi bir savaş alanının dinamik ve ayrıntılı bir sahnesini oluşturun, geniş orduları, karmaşık formasyonları ve savaş için donatılmış savaş fillerini 
+sergileyin, tarihi savaşın yoğunluğunu ve ölçeğini yakalayın.
+
+Aşk.jfif
+İşini aşkla yapan yeşil paltosu olan 70'li yaşlarında bir amca Londra'da yemyeşil bir parkta işini aşkla yapıyor.
+İşini yapan amcaya siyah saçlı, siyah giyimli elinde pamuk şeker olan bir kız bakıyor.
+
+Sevgi.jfif
+3 yaşında sarışın, iki küçük topuzu olan bir kız çocuğu görselleştirmeni istiyorum. Elinde küçük yuvarlak bir fanus olsun ve fanusun içinde kırmızı bir 
+japon balığı olsun. Arka planda pencereden kar yağan bir manzara olsun ve evin içerisinde kırmızı ve yöresel bir deseni olan
+bir İran halısı olsun.
+
+Nefret.jfif
+Ankarada metro bekleyen sinirlenen adam görselleştirmeni isteyeceğim. Adamın gözleri kanlanmış sinirden ve kıpkırmızı.
+Etraftaki insanlar bu adamın nefretinden gergin hissediyorlar. Metro kırmızı ve gri, arkadan geçmekte olsun.
+
+logom.jfif
+Olimpiyat simgesine benzeyen lacivert renkte imza gibi bir logo tasarlamanı istiyorum.

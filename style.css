@@ -1,0 +1,179 @@
+/* Temel stil dosyası */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 180px; /* Logo boyutu */
+}
+
+nav {
+    background-color: #f8f9fa; /* Arka plan rengi */
+    padding: 10px 0; /* Yukarıdan ve aşağıdan boşluk */
+    display: flex;
+    justify-content: center; /* Menü öğelerini ortalar */
+}
+
+.menu-item {
+    background-color: #fff; /* Menü öğesi arka plan rengi */
+    padding: 10px 20px; /* Kenarlardan boşluk */
+    margin: 0 5px; /* Sağ ve sol kenarlardan boşluk */
+    border-radius: 5px; /* Kenar yuvarlaklığı */
+}
+
+.menu-item a {
+    text-decoration: none; /* Bağlantı alt çizgisini kaldır */
+    color: #000; /* Metin rengi */
+    font-weight: bold; /* Kalın font */
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0; /* Üzerine gelindiğinde arka plan rengi */
+}
+
+#Para {
+    width: 500px;
+    height: auto; /* Otomatik yükseklik ayarı */
+}
+
+#Anne {
+    width: 500px;
+    height: auto; /* Otomatik yükseklik ayarı */
+}
+
+#Savaş {
+    width: 500px;
+    height: auto; /* Otomatik yükseklik ayarı */
+}
+
+#Aşk {
+    width: 500px;
+    height: auto; /* Otomatik yükseklik ayarı */
+}
+
+#Sevgi {
+    width: 500px;
+    height: auto; /* Otomatik yükseklik ayarı */
+}
+
+#Nefret {
+    width: 500px;
+    height: auto; /* Otomatik yükseklik ayarı */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between; /* Görseller arasına esnek boşluk bırakır */
+    flex-wrap: wrap; /* Küçük ekranlarda satırları sarma */
+}
+
+.row img {
+    width: calc(33.33% - 10px); /* Her görselin %33 genişlikte olması ve aralarında 5px boşluk bırakılması */
+    margin-bottom: 20px; /* Görsellerin altında boşluk bırakır */
+    height: auto; /* Otomatik yükseklik ayarı */
+    margin-right: 5px; /* Sağ taraftaki görseller arasında boşluk bırakır */
+    margin-left: 5px; /* Sol taraftaki görseller arasında boşluk bırakır */
+}
+
+.oneri-kutulari {
+    display: flex;
+    flex-direction: column;
+}
+
+.oneri-kutusu {
+    margin-bottom: 20px;
+}
+
+.oneri-kutusu input,
+.oneri-kutusu textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.oneri-kutusu textarea {
+    height: 150px; /* Yorum kutusunun yüksekliği */
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Tablet ve küçük ekranlar için medya sorgusu */
+@media only screen and (max-width: 768px) {
+    .oneri-kutusu input,
+    .oneri-kutusu textarea {
+        font-size: 14px;
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+}
+
+/* Mobil ekranlar için medya sorgusu */
+@media only screen and (max-width: 576px) {
+    .oneri-kutusu input,
+    .oneri-kutusu textarea {
+        font-size: 12px;
+
+    h1 {
+        font-size: 24px;
+    }
+}
+}
